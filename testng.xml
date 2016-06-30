@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+
+
+<suite name="VTigerSuite"  verbose="3" parallel="tests" thread-count="10">
+<parameter name="url" value="http://localhost:8888/"></parameter>
+	  <test name="Vtiger_Firefox_Win">
+	    <parameter name="Browser" value="FF"></parameter>
+	     <parameter name="OS" value="Win"></parameter>
+		    <classes>
+
+			      <class name="com.evs.vtiger.framework.testcases.marketing.Leads_Cases">
+			      </class> 
+		    </classes>
+
+	  </test> 
+	  
+	  	  <test name="Vtiger_Firefox_Mac">
+	    <parameter name="Browser" value="FF"></parameter>
+	     <parameter name="OS" value="Mac"></parameter>
+		    <classes>
+
+			      <class name="com.evs.vtiger.framework.testcases.marketing.Leads_Cases">
+			      </class> 
+		    </classes>
+
+	  </test> 
+	  
+	  	  <test name="Vtiger_Chrome_Win">
+	    <parameter name="Browser" value="CH"></parameter>
+	     <parameter name="OS" value="Win"></parameter>
+		    <classes>
+
+			      <class name="com.evs.vtiger.framework.testcases.marketing.Leads_Cases">
+			      </class> 
+		    </classes>
+
+	  </test> 
+	  
+	  	  <test name="Vtiger_Firefox_Linux">
+	    <parameter name="Browser" value="FF"></parameter>
+	     <parameter name="OS" value="Lin"></parameter>
+		    <classes>
+
+			      <class name="com.evs.vtiger.framework.testcases.marketing.Leads_Cases">
+			      </class> 
+		    </classes>
+
+	  </test> 
+	  
+</suite> <!-- Failed suite [Default suite] -->
